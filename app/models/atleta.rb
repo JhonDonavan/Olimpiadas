@@ -1,4 +1,4 @@
-class Atletum < ApplicationRecord
+class Atleta < ApplicationRecord
     validates :atleta, presence: true
 
 end
