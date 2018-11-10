@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  competicao_id: 1
+  atleta_id: 1
+  value_1: 1.5
+  value_1: 1.5
+  value_3: 1.5
+  score_3: 1.5
+  unidade: MyText
+
+two:
+  competicao_id: 1
+  atleta_id: 1
+  value_1: 1.5
+  value_1: 1.5
+  value_3: 1.5
+  score_3: 1.5
+  unidade: MyText

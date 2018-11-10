@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  competicao: MyString
+  dt_inicio: 
+  dt_fim: 
+  encerrada: false
+
+two:
+  competicao: MyString
+  dt_inicio: 
+  dt_fim: 
+  encerrada: false
