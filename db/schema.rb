@@ -22,20 +22,22 @@ ActiveRecord::Schema.define(version: 2018_11_10_121707) do
     t.string "competicao"
     t.date "dt_ini"
     t.date "dt_fim"
-    t.boolean "encerrada"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "scores", force: :cascade do |t|
-    t.integer "competicao_id"
     t.integer "atleta_id"
+    t.integer "categoria_id"
+    t.integer "competicao_id"
     t.float "value_1"
+    t.float "value_2"
     t.float "value_3"
-    t.float "score_3"
     t.text "unidade"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["atleta_id"], name: "index_scores_on_atleta_id"
+    t.index ["categoria_id"], name: "index_scores_on_categoria_id"
   end
 
 end

@@ -4,7 +4,6 @@ class CreateCompeticaos < ActiveRecord::Migration[5.2]
       t.string :competicao
       t.date :dt_ini
       t.date :dt_fim
-      t.boolean :encerrada
 
       t.timestamps
     end

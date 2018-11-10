@@ -1,7 +1,7 @@
 module Api
 	module V1
         class CompeticaoController < ApplicationController   
-            # Listar todos os competições
+			# Listar todos os competições
 			def index
 				competicao = Competicao.order('created_at DESC');
 				render json: {status: 'SUCCESS', message:'Competiçoes carregados', data:competicao},status: :ok
