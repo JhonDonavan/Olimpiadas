@@ -1,9 +1,9 @@
 class CreateScores < ActiveRecord::Migration[5.2]
   def change
     create_table :scores do |t|
-      t.references :atleta, :categoria
-      t.integer :competicao_id
+      t.references :atleta, :competicao
       t.integer :atleta_id
+      t.integer :competicao_id
       t.float :value_1
       t.float :value_1
       t.float :value_2
