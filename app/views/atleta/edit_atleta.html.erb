@@ -1,0 +1,4 @@
+<%= form_tag home_path, method: :put do %>
+    Nome: <%= text_field_tag :Nome, @atleta[:Nome] %> <br/>
+    <%= submit_tag "update"%>
+  <% end %>
